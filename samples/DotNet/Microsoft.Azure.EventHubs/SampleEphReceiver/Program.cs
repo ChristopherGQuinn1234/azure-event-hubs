@@ -10,11 +10,11 @@ namespace SampleEphReceiver
 
     public class Program
     {
-        private const string EventHubConnectionString = "Endpoint=sb://tzf-int-dev-multi-001-eventhub-cgq.servicebus.windows.net/;SharedAccessKeyName=QRadarEPPolicy;SharedAccessKey=5A/MdEcO9L6hENJyGUktHhnBq1AZo2b6MPT9nEBN0Mg=;EntityPath=aztzfdma01wulogs";
+        private const string EventHubConnectionString = "ChangeToRealValue--Endpoint=sb://tzf-int-dev-multi-001-eventhub-cgq.servicebus.windows.net/;SharedAccessKeyName=QRadarEPPolicy;SharedAccessKey=5A/MdEcO9L6hENJyGUktHhnBq1AZo2b6MPT9nEBN0Mg=;EntityPath=aztzfdma01wulogs";
         private const string EventHubName = "aztzfdma01wulogs";
         private const string StorageContainerName = "test";
         private const string StorageAccountName = "cgqtesteventhub";
-        private const string StorageAccountKey = "NKg063ygZPxkANtUmNR6BGCQ27OMr+1rkur/II42ga9uOXCKc15bAH9A+5sEEIe+xdNQRyEIkPlnaJhRWamIEg==";
+        private const string StorageAccountKey = "changeToRealValue--mNR6BGCQ27OMr+1rkur/II42gaEEIe+xdNQRyEIkPlnaJhRWamIEg==";
 
         private static readonly string StorageConnectionString = string.Format("DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}", StorageAccountName, StorageAccountKey);
 
